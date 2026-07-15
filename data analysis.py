@@ -1,4 +1,8 @@
 # Life Expectancy Assignment
+import os
+
+print("Current folder:", os.getcwd())
+print("Files:", os.listdir())
 
 filename = "life-expectancy.csv"
 
